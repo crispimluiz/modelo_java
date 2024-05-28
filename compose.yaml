@@ -7,3 +7,5 @@ services:
       - 'POSTGRES_USER=myuser'
     ports:
       - '5432'
+    cpus: 0.5
+    mem_limit: 2g
